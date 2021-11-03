@@ -1,37 +1,37 @@
 {
-"model": [
-  {
-  "name": "location",
-  "field: [
-    ["id", "integer", "ID", "required"],
-    ["name", "string", "Name", "required"],
-    ["status", "integer", "Status", "required"],
+  "model": [
+    {
+      "name": "location",
+      "field": [
+        ["id", "integer", "ID", "required"],
+        ["name", "string", "Name", "required"],
+        ["status", "integer", "Status", "required"]
+      ]
+    },
+    {
+      "name": "email",
+      "field": [
+        ["id", "integer", "ID", "required"],
+        ["email", "string", "Email", "required"],
+        ["status", "integer", "Status", "required"]
+      ]
+    },
+    {
+      "name": "sms",
+      "field": [
+        ["id", "integer", "ID", "required"],
+        ["phone", "string", "Phone", "required"],
+        ["status", "integer", "Status", "required"]
+      ]
+    },
+    {
+      "name": "user",
+      "field": [
+        ["id", "integer", "ID", "required"],
+        ["name", "string", "Name", "required"],
+        ["email", "string", "Email", "required"],
+        ["status", "integer", "Status", "required"]
+      ]
+    }
   ]
-  },
-  {
-  "name": "email",
-  "field: [
-    ["id", "integer", "ID", "required"],
-    ["email", "string", "Email", "required"],
-    ["status", "integer", "Status", "required"],
-  ]
-  },
-  {
-  "name": "sms",
-  "field: [
-    ["id", "integer", "ID", "required"],
-    ["phone", "string", "Phone", "required"],
-    ["status", "integer", "Status", "required"],
-  ]
-  },
-  {
-  "name": "user",
-  "field: [
-    ["id", "integer", "ID", "required"],
-    ["name", "string", "Name", "required"],
-    ["email", "string", "Email", "required"],
-    ["status", "integer", "Status", "required"],
-  ]
-  }  
-]
 }
